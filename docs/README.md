@@ -1,6 +1,6 @@
 # Video2Hap 🎬  视频批量转换为 HAP 编码格式
 
-[简体中文](README.md)| [English](README_EN.md)
+[简体中文](README.md) | [English](README_EN.md)
 
 Video2HAP 是一个轻量级跨平台（Windows / macOS）的转码工具，可以批量将视频文件转换为 HAP 格式。
 
@@ -10,15 +10,20 @@ Video2HAP 是一个轻量级跨平台（Windows / macOS）的转码工具，可�
 HAP 是一种专为高性能实时视频播放设计的编码格式，常用于新媒体艺术、沉浸式投影、舞台表演、VJ、互动装置等场景。
 
 相比 H.264，HAP 具有以下优势：
+
 ✅ GPU 解码，播放时更流畅，减少 CPU 负载
+
 ✅ 支持 Alpha 通道，适用于透明背景视频
+
 ✅ 帧无损压缩，保证高质量画面
+
 ✅ 低延迟，适用于实时播放
 
 我主要在 Max/MSP 中同时处理多个视频文件，HAP 编码能显著提升播放性能，让多视频同时运行时更加稳定流畅。此外，多数主流影像类工具（如 TouchDesigner、Resolume、Unreal Engine、Notch、MadMapper 等）都对 HAP 提供了良好的支持，在数字艺术、新媒体艺术、实时视觉领域这种格式是非常好的选择。
 
 ## 前置条件
 在运行 Video2HAP 之前，请确保你的系统已安装以下软件：
+
 [Python](https://www.python.org/) | [FFmpeg](https://ffmpeg.org/) | [git](https://git-scm.com/)
 
 ## 安装
